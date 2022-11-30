@@ -1,35 +1,23 @@
 {
-  "id": "https://example.org/colour-with-hierarchy/green",
+  "id": "https://example.org/colour-with-hierarchy/bluegreen",
   "type": "Concept",
   "prefLabel": {
-    "en": "green",
-    "de": "Grün"
+    "en": "blue-green",
+    "de": "Blaugrün"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/colour-with-hierarchy/grassgreen",
-      "prefLabel": {
-        "en": "grass-green",
-        "de": "Grasgrün"
-      }
-    },
-    {
-      "id": "https://example.org/colour-with-hierarchy/bluegreen",
-      "prefLabel": {
-        "en": "blue-green",
-        "de": "Blaugrün"
-      }
+  "broader": {
+    "id": "https://example.org/colour-with-hierarchy/green",
+    "prefLabel": {
+      "en": "green",
+      "de": "Grün"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://example.org/colour-with-hierarchy/",
     "title": {
       "en": "Colour vocabulary with hierarchy",
       "de": "Farbvokabular mit Hierarchie"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/colour-with-hierarchy/"
   },
   "@context": {
     "@version": 1.1,

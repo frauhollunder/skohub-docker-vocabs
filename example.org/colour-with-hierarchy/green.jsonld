@@ -12,6 +12,13 @@
         "en": "grass-green",
         "de": "Grasgrün"
       }
+    },
+    {
+      "id": "https://example.org/colour-with-hierarchy/bluegreen",
+      "prefLabel": {
+        "en": "blue-green",
+        "de": "Blaugrün"
+      }
     }
   ],
   "inScheme": {
